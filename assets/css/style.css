@@ -5,3 +5,65 @@
     box-sizing: border-box;
 }
 /* #endregion Common */
+
+/* #region Utility */
+:root {
+    --dropbox-white: #ffffff;
+    --dropbox-primary: #b4d0e7;
+    --dropbox-button: #0061ff;
+    --dropbox-black: #000000;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+/* #endregion Utility */
+
+/* #region Layout */
+.container {
+	width: 80%;
+	max-width: 1152px;
+	margin: auto
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -1rem
+}
+
+[class^="col-"] {
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+/* #region Debug */
+.debug header {
+    min-height: 200px;
+    background-color: blue;    
+    & .header_left{
+        width: 600px;
+        min-height: 200px;
+        background-color: aquamarine;
+    }
+    & .header_right {
+        width: 600px;
+        min-height: 200px;
+        background-color: aqua;
+    }
+}
+
+main {
+    min-height: 600px;
+    background-color: red;
+}
+
+footer {
+    min-height: 300px;
+    background-color: black;
+}
+/* #endregion Debug */
