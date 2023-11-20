@@ -32,6 +32,10 @@ p {
     --dropbox-black: #000000;
 }
 
+.text-center {
+    text-align: center;
+}
+
 .bg-white {
     background-color: var(--dropbox-white);
 }
@@ -86,6 +90,14 @@ p {
 
 .gap-3 {
     gap: 1.5rem;
+}
+
+.p-1 {
+    padding: 0.5rem;
+}
+
+.p-2 {
+    padding: 1rem;
 }
 
 .p-3 {
@@ -187,6 +199,15 @@ main h2 {
 .arrow_down {
     font-size: 2rem;
     padding: 3rem 0 0.5rem 0;
+}
+
+.column_title,
+.column_content {
+    border: 1px solid grey;
+}
+
+.column_content {
+    border-top: none;
 }
 /* #endregion Main */
 
