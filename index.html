@@ -3,11 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- LOCAL CSS -->
     <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- GOOGLE FONT ROBOTO -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Dropbox</title>
 </head>
 <body class="">
-    <header class="d-flex justify-content-between position-fixed z-n1 w-100">
+    <header class="d-flex justify-content-between position-fixed z-n1 w-100 bg-white">
         <div class="header_left d-flex p-3 align-items-center">
             <div class="logo pr-3">
                 <img src="./assets/img/logo-small.png" alt="logo">
@@ -20,19 +27,57 @@
             </div>
             <!-- /.ul -->
         </div>
+        <!-- /.header_left -->
         <div class="header_right d-flex p-3 align-items-center">
-            <ul class="d-flex gap-3">
+            <ul class="d-flex gap-3 align-items-center">
                 <li><a href="#">Supporto</a></li>
                 <li><a href="#">Contatta l'ufficio vendite</a></li>
                 <li><a href="#">Accedi</a></li>
                 <li><button class="btn btn-primary">Inizia</button></li>
             </ul>
+            <!-- /.ul -->
         </div>
+        <!-- /.header_right -->
     </header>
+    <!-- /header -->
 
-    <main></main>
+    <main>
+        <section class="bg-primary pt-15">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 pb-3">
+                        <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
+                    </div>
+                    <!-- /.col-12 -->
+                    <div class="col-4">
+                        <p>
+                            Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. <br>
+                            Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.
+                        </p>
+                        <button class="btn btn-primary mt-3">Inizia la tua prova gratuita</button>
+                        <p class="pt-3">Annulla in qualsiasi momento</p>
+                        <div class="arrow_down d-flex align-items-end">
+                            <i class="fa-solid fa-arrow-down"></i>
+                        </div>
+                    </div>
+                    <!-- /.col-4 -->
+                    <div class="col-8 jumbo_img d-flex ">
+                        <img src="./assets/img/jumbo.png" alt="jumbo">
+                    </div>
+                    <!-- /.col-8 -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </section>
+        <!-- /section -->
+    </main>
+    <!-- /main -->
 
-    <footer></footer>
+    <footer>
+
+    </footer>
+    <!-- /footer -->
 
 
     
