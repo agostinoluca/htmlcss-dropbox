@@ -4,6 +4,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style: none;
+}
 /* #endregion Common */
 
 /* #region Utility */
@@ -14,12 +23,52 @@
     --dropbox-black: #000000;
 }
 
+.btn {
+    border: none;
+    background-color: transparent;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0.10rem 0.5rem;
+}
+
+.btn-primary {
+    background-color: var(--dropbox-button);
+    color: var(--dropbox-white);
+}
+
+.position-fixed {
+    position: fixed;
+}
+
+.z-n1 {
+    z-index: 9999;
+}
+
+.w-100 {
+    width: 100%;
+}
+
 .d-flex {
     display: flex;
 }
 
 .justify-content-between {
     justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.gap-3 {
+    gap: 1.5rem;
+}
+
+.p-3 {
+    padding: 1.5rem;
+}
+
+.pr-3 {
+    padding-right: 1.5rem;
 }
 /* #endregion Utility */
 
@@ -41,6 +90,15 @@
 	padding-right: 1rem;
 }
 
+/* #region Header */
+    header {
+        box-shadow: 0 0 0.5rem;
+    }
+/* #endregion Header */
+
+
+
+
 /* #region Debug */
 .debug header {
     min-height: 200px;
@@ -57,12 +115,12 @@
     }
 }
 
-main {
+.debug main {
     min-height: 600px;
     background-color: red;
 }
 
-footer {
+.debug footer {
     min-height: 300px;
     background-color: black;
 }
