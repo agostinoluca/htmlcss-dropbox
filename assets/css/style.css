@@ -13,6 +13,7 @@ a {
 
 li {
     list-style: none;
+    padding-bottom: 1.5rem;
 }
 
 img {
@@ -30,10 +31,16 @@ p {
     --dropbox-primary: #b4d0e7;
     --dropbox-button: #0061ff;
     --dropbox-black: #000000;
+    --dropbox-secondary: #807f7f;
 }
 
 .text-center {
     text-align: center;
+}
+
+.text-secondary {
+    color: var(--dropbox-secondary);
+    font-weight: 500;
 }
 
 .bg-white {
@@ -88,6 +95,10 @@ p {
     align-items: end;
 }
 
+.gap-1 {
+    gap: 0.5rem;
+}
+
 .gap-3 {
     gap: 1.5rem;
 }
@@ -122,6 +133,10 @@ p {
 
 .pt-15 {
     padding-top: 7.5rem;
+}
+
+.pb-2 {
+    padding-bottom: 1rem;
 }
 
 .pb-3 {
