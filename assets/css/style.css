@@ -33,6 +33,11 @@ p {
     --dropbox-secondary: #807f7f;
 }
 
+.text-decoration {
+    text-decoration: underline;
+    color: #0061ff;
+}
+
 .text-center {
     text-align: center;
 }
@@ -151,6 +156,10 @@ p {
     padding-bottom: 1.5rem;
 }
 
+.pb-4 {
+    padding-bottom: 2rem;
+}
+
 .mt-3 {
     margin-top: 1.5rem;
 }
@@ -233,6 +242,12 @@ main h2 {
     border-top: none;
     & li {
         padding-bottom: 1.5rem;
+    }
+    & .divisore_corto {
+        width: 30%;
+    }
+    & .check_blu {
+        color: var(--dropbox-button);
     }
 }
 /* #endregion Main */
