@@ -13,7 +13,6 @@ a {
 
 li {
     list-style: none;
-    padding-bottom: 1.5rem;
 }
 
 img {
@@ -56,6 +55,11 @@ p {
     background-color: transparent;
     font-family: 'Times New Roman', Times, serif;
     padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transform: scale(1.1);
 }
 
 .btn-primary {
@@ -81,6 +85,10 @@ p {
 
 .d-flex {
     display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
 }
 
 .justify-content-between {
@@ -223,6 +231,9 @@ main h2 {
 
 .column_content {
     border-top: none;
+    & li {
+        padding-bottom: 1.5rem;
+    }
 }
 /* #endregion Main */
 
